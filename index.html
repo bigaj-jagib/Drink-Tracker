@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Tracker</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <h1>Drink Tracker</h1>
+    </div>
+    <div>
+        <form id="drinkform" method="POST" action="https://script.google.com/macros/s/AKfycbwjd2Q6GdKFgYhJxsAyxcuGFwYeVMGvO-xD5B4tpcbtNkW8fwRAB2dkZHp_Y1AM0k8dpQ/exec">
+            <p>Name:</p>
+            <input type="radio" id="sinjin" name="Name" value="Sinjin">
+            <label for="sinjin">Sinjin</label><br>
+
+            <input type="radio" id="aiden" name="Name" value="Aiden">
+            <label for="aiden">Aiden</label><br>
+
+            <input type="radio" id="jacob" name="Name" value="Jacob">
+            <label for="jacob">Jacob</label><br>
+
+            <p>Drink:</p>
+            <input type="radio" id="beer" name="Drink" value="Beer">
+            <label for="beer">Beer</label><br>
+
+            <input type="radio" id="lightbeer" name="Drink" value="Light Beer">
+            <label for="lightbeer">Light Beer</label><br>
+
+            <input type="radio" id="liquor" name="Drink" value="Liquor">
+            <label for="liquor">Liquor &#40;1 shot&#41;</label><br>
+
+            <input type="radio" id="wine" name="Drink" value="Wine">
+            <label for="wine">Wine</label><br><br>
+
+            <input type="hidden" name="Date/Time" id="datetime">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="datetime.js"></script>
+</body>
+</html>
